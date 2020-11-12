@@ -1,5 +1,4 @@
-FROM sonarqube:8.5-community
-
+FROM sonarqube:latest
 USER root
 
 RUN apt-get update \
